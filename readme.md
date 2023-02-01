@@ -13,7 +13,7 @@
  ![preview](./preview.png)
 
 
-[Clique aqui para acessar o site](https://washingtongomes.github.io/)
+[Clique aqui para acessar o site]( https://washingtongomes.github.io/desafio-replica-site-adv-responsivo/)
 
 
 
