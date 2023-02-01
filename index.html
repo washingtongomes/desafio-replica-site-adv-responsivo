@@ -1,0 +1,128 @@
+
+<!--Autor: Washington - replica de site no desafio slide -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./main.js" defer></script>
+        <title>Advogados</title>
+    </head>
+    <body onload="slide1()">
+        <div class="container">
+        <!--logo principal-->
+        <img id="logoPrincipal" src="../images/logo_principal.png"
+        alt="logoadv">
+        </div>
+    <!--icone checkbox - Hamburg -->
+        <div class="container">
+            <input type="checkbox" id="checkbox-menu" >
+            <label for="checkbox-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!--itens de menu-nav -->
+            <nav class="menu-nav">
+                <ul class="item">
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#"> Escritorio</a></li>
+                    <li><a href="#"> Area atuação</a></li>
+                    <li><a href="#"> Equipe</a></li>
+                    <li><a href="#"> Contato</a></li>
+                    <li><img id="imgLupa" src="../images/search.svg"></li>
+                    <li><input type="text" hidden/></li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <hr>
+        <!--imagem banner -->
+        <div id="imageBanner">
+            <img src="../images/banner-1.jpg" alt="" id="banner">
+        </div>
+
+        <!--imagens sobre escritorio-->
+        <div class="ImgSecundaria">
+            <img src="../images/img01.jpg" alt="imagemEscritorio">
+            <img src="../images/img02.jpg" alt="imagemAreas">
+            <img src="../images/img03.jpg" alt="imagemEquipe">
+        </div>
+
+        <!--imagem da equipe-->
+        <div class="ImgEquipe">
+            <img src="../images/adv.jpg" alt="imagemEquipe">
+            <p>Lorem ipsum dolor sit amet. Aut quasi doloremque cum obcaecati quae ut eligendi maxime. Et enim quam quo iste sunt quo quas esse cum totam iste eum aliquam pariatur eum accusamus libero ut quisquam saepe?<br><br>
+                 Et necessitatibus dolor qui praesentium nostrum qui aliquid exercitationem rem libero voluptatum in fuga animi. Aut incidunt consectetur est consequatur eligendi qui deleniti eveniet.
+
+                Id autem odit est reiciendis aliquam non natus doloremque aut natus facilis eum nisi placeat a cupiditate illum in earum nihil. Quo ipsa provident est quia vero non quia optio non distinctio laudantium?<br><br>
+                 Non inventore beatae sit dolorem maxime qui dolorem sunt ad eveniet harum 33 ipsum odio qui quis tenetur qui voluptas sint. Vel ullam galisum et mollitia alias ad nostrum beatae ut deleniti omnis.
+                
+                Sit vitae internos eum reiciendis sapiente in cumque ipsa eum necessitatibus omnis ut velit labore. Aut reprehenderit autem sit porro magni qui dolores error sed voluptatem nostrum.
+                <br><br>
+                <a href="/o escritorio">Saiba mais...</a>
+            </p>
+            </div>
+            
+            <!--forms-->
+            <div class="contato">
+                <form class="formulario">
+                    <h2>Possui alguma dúvida? Entre em contato conosco.</h2>
+                    <div class="form">
+                    <span> (*) Campo Obrigatorio</span><br><br>
+                    <label for="nome" class="label">Nome </label>
+                    <input type="text" id="nome" placeholder="Nome (*)" required> 
+                    <label for="email">E-mail <span>(*)</span></label>
+                    <input type="email" id="email" placeholder="E-mail (*)" required >
+                    <label for="celular">Telefone Celular </label>
+                    <input type="text"  id="celular"placeholder="Telefone Celular">
+                    <label for="telefone">Telefone Fixo </label>
+                    <input type="text" id="telefone"placeholder="Telefone Fixo">
+                    <label for="assunto">Assunto </label>
+                    <input type="text" id="assunto" placeholder="Assunto">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea type="text" id="mensagem"></textarea>
+                    <input type="submit" value="Enviar">
+                    </div>
+                </form>
+
+                 <!--localização-->
+                <div class="localizacao">
+                    <h2>LOCALIZAÇÃO</h2>
+                    <hr>
+                    <map class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7657.481177787745!2d-39.016701287755616!3d-16.336193821518343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x736eb22e123281f%3A0x1a695ee79a8a9967!2sCoroa%20Vermelha%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1675003079444!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </map>
+                    <div class="links">
+                        <ul>
+                            <li><img src="./images/img_localizacao.png" alt="local"><a href="#" class="localizacao">paragrafo: Ut rerum iusto qui voluptatem ipsam.
+                                Ut sint laboriosam hic dignissimos sunt cum autem corrupti ut ipsum sequi. </a></li>
+                            <li><img src="./images/img_zap.png" alt="whatszap"><a href="#" class="localizacao"> paragrafo: Ut rerum iusto qui voluptatem ipsam.
+                                Ut sint laboriosam hic dignissimos sunt cum autem corrupti ut ipsum sequi. </a></li>
+                            <li><img src="./images/img_tel.png" alt="telefone"><a href="#" class="localizacao"> paragrafo: Ut rerum iusto qui voluptatem ipsam.
+                                Ut sint laboriosam hic dignissimos sunt cum autem corrupti ut ipsum sequi.</a></li>
+                            <li><img src="./images/img_mail.png" alt="email"><a href="#" class="localizacao">paragrafo: Ut rerum iusto qui voluptatem ipsam.
+                                Ut sint laboriosam hic dignissimos sunt cum autem corrupti ut ipsum sequi. </a></li>
+                        </ul>
+                        <div class="link-logo">
+                            <img src="./images/logo_principal.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!--footer-->
+            <footer>
+                    <ul>
+                        <li><a href="#">Áreas de Atuação</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                <p class="parag_footer">Copyright © 2023 blrarlasdl wiqeoueoiwhfjsdjadopsidpas | Criado por Grupo wedsafdf</p>
+            </footer>
+
+    </body>
+</html>
